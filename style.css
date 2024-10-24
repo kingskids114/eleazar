@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(241, 255, 0);
+    background: linear-gradient(0deg, rgba(241, 255, 0, 1) 22%, rgba(244, 0, 255, 1) 100%);
+    min-height: 100vh;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4486ace5;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    background: #dceb119c;
+    color: green;
+    border: 2px solid rgb(0, 247, 255);
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+}
+
+
+
+#ekran,#delete {
+
+    width: 158px;
+    height: 50px;
+    background: #dceb119c;
+    color: green;
+    border: 2px solid rgb(0, 247, 255);
+}
